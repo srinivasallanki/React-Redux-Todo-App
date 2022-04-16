@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.taskItem {
+  border: 1px solid #dcdde1;
+  padding: 15px !important;
+}
+
+.taskItem .actions {
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.taskItem .content.completed {
+  text-decoration-line: line-through;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
